@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.input {
+  border: 2px black solid;
+  width: 200px;
+  color: blue;
+  font-weight: bold;
+}
+.container {
+  height: px;
+  width: 200px;
+  border: 1px solid grey;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  left: 100px;
+}
+.Suggestions {
+  list-style-type: none;
+  border: 1px solid grey;
+  width: max-content;
+}
+.Suggestions :hover {
+  cursor: pointer;
+  background-color: cadetblue;
+}
